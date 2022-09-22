@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+
+# Useless at build-time
+if [ -f package.json ]; then
+  exit 0
+fi
+
+nodejs -e "require('moment');"

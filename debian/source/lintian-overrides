@@ -1,0 +1,4 @@
+# long test line: ok
+node-moment source: source-is-missing src/test/locale/bo.js line length is * characters (>512)
+node-moment source: source-contains-prebuilt-javascript-object src/test/locale/bo.js line length is 602 characters (>512)
+node-moment source: very-long-line-length-in-source-file src/test/locale/bo.js line length is 606 characters (>512)
