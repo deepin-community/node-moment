@@ -3,14 +3,17 @@ Upstream-Name: Moment.js
 Upstream-Contact: https://github.com/moment/moment/issues
 Source: https://github.com/moment/moment
 Files-Excluded: *.min.js
+ *.map
+ min/*.min.js
+ min/*.map
 
 Files: *
 Copyright: 2011-2015 Tim Wood, Iskren Chernev and Moment.js contributors
-           2016-2018 JS Foundation and other contributors
+           2016-2022 JS Foundation and other contributors
 License: Expat
 
 Files: debian/*
-Copyright: 2015-2018 Julien Puydt
+Copyright: 2015-2022 Julien Puydt
 License: Expat
 
 License: Expat
