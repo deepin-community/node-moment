@@ -1,3 +1,30 @@
+node-moment (2.29.4+ds-1) unstable; urgency=medium
+
+  * Team upload
+  * Exclude more files from import
+  * Declare compliance with policy 4.6.1
+  * New upstream version 2.29.4 (Closes: #1014845, CVE-2022-31129)
+  * Add lintian overrides
+
+ -- Yadd <yadd@debian.org>  Wed, 13 Jul 2022 21:02:55 +0200
+
+node-moment (2.29.3+ds-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Mark the dep on nodejs as :any.
+  * Drop lintian overrides.
+  * Update dates in d/copyright.
+
+ -- Julien Puydt <jpuydt@debian.org>  Fri, 22 Apr 2022 18:24:44 +0200
+
+node-moment (2.29.2+ds-1) unstable; urgency=medium
+
+  * Team upload
+  * Fix filenamemangle
+  * New upstream version 2.29.2 (Closes: CVE-2022-24785)
+
+ -- Yadd <yadd@debian.org>  Tue, 12 Apr 2022 06:22:35 +0200
+
 node-moment (2.29.1+ds-3) unstable; urgency=medium
 
   * Fix d/watch.

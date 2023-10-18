@@ -1,4 +1,6 @@
-# long test line: ok
-node-moment source: source-is-missing src/test/locale/bo.js line length is * characters (>512)
-node-moment source: source-contains-prebuilt-javascript-object src/test/locale/bo.js line length is 602 characters (>512)
-node-moment source: very-long-line-length-in-source-file src/test/locale/bo.js line length is 606 characters (>512)
+# False positives
+source-is-missing *min/tests.js*
+source-is-missing *src/test/locale/bo.js*
+source-nmu-has-incorrect-version-number 2.29.4+ds-1 *debian/changelog:1*
+source-contains-prebuilt-javascript-object *min/tests.js*
+source-contains-prebuilt-javascript-object *src/test/locale/bo.js*

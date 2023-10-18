@@ -2,5 +2,5 @@ version=4
 opts=\
 repacksuffix=+ds,\
 dversionmangle=s/\+(debian|dfsg|ds|deb)(\.\d+)?$//,\
-filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-moment-$1.tar.gz/ \
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-moment-$1/ \
 https://github.com/moment/moment/tags .*/([\d\.]+).tar.gz

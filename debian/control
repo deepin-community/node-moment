@@ -7,7 +7,7 @@ Uploaders: Julien Puydt <jpuydt@debian.org>
 Build-Depends: debhelper-compat (= 13)
  , uglifyjs
  , dh-sequence-nodejs
-Standards-Version: 4.6.0
+Standards-Version: 4.6.1
 Homepage: https://github.com/moment/moment
 Vcs-Git: https://salsa.debian.org/js-team/node-moment.git
 Vcs-Browser: https://salsa.debian.org/js-team/node-moment
@@ -16,7 +16,7 @@ Rules-Requires-Root: no
 Package: node-moment
 Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends}, nodejs, libjs-moment (= ${binary:Version})
+Depends: ${misc:Depends}, nodejs:any, libjs-moment (= ${binary:Version})
 Description: Work with dates in JavaScript (Node.js module)
  A lightweight JavaScript date library to parse, validate,
  manipulate and format dates.
